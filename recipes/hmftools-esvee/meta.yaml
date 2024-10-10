@@ -1,6 +1,6 @@
 {% set version = "1.0_beta" %}
-{% set beta_suffix = ".1" %}
-{% set sha256 = "aafe004ad90c3405e4477460d892d9b15eb9bfa666486eeaadaa7bb731fce654" %}
+{% set beta_suffix = ".2" %}
+{% set sha256 = "75933500cde12741534580d84bdafc6ad7b3290f382973dbcf540580b9453bd9" %}
 
 package:
   name: hmftools-esvee
@@ -12,7 +12,7 @@ source:
 
 build:
   noarch: generic
-  number: 1
+  number: 2
   run_exports:
     - {{ pin_subpackage("hmftools-esvee", max_pin="x.x") }}
 
